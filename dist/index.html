@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Crypto Converter - BTC, ETH, POL, SOL,..</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Converter</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Crypto Converter</h1>
+        </div>
+      
+      <! -- 
+
+View the full list of coins with api id, symbol and name using this Google Sheet
+
+https://docs.google.com/spreadsheets/d/1wTTuxXt8n9q7C4NDXqQpI3wpKu1_5bGVmP9Xz0XGSyU/edit?pli=1&gid=0#gid=0
+
+      --> 
+        <div id="inputs">
+            <div id="selectCrypto">
+                <select id="crypto">
+                    <option value="bitcoin">BTC</option>
+                    <option value="polygon-ecosystem-token">POL</option>
+                    <option value="ethereum">ETH</option>
+                    <option value="solana">SOL</option>
+                    <option value="aave">AAVE</option>
+                </select>
+            </div>
+            <div id="btn">
+                <button>Check Price</button>
+            </div>
+            <div id="selectCurrency">
+                <select id="currency">
+                    <option value="usd">USD</option>
+                    <option value="eur">EUR</option>
+
+                </select>
+            </div>
+
+        </div>
+        <div id="outputs"> 
+            <br>
+            <div id=price>Price</div>
+        </div>
+    </div>
+  <footer>Copyright  &copy; PIGMIL     <p class="powered_by">Powered by Coingecko API</p> </footer>
+    
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
